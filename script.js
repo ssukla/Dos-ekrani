@@ -31,7 +31,7 @@ $(document).ready(function () {
 			if(e.which == 13) { //enter
 				$('#intro').hide();
 				$('#formattingWrap').hide();
-				window.location.replace("https://geekprank.com/just-prank/");
+				window.location.replace("/");
 				//$('#prankBro').show();
 			} else if(e.which == 8) { //backspace
 				
