@@ -31,7 +31,7 @@ $(document).ready(function () {
 			if(e.which == 13) { //enter
 				$('#intro').hide();
 				$('#formattingWrap').hide();
-				window.location.replace("/");
+				window.location.replace("https://ssukla.github.io/windows-xp/xp-simulator.html");
 				//$('#prankBro').show();
 			} else if(e.which == 8) { //backspace
 				
