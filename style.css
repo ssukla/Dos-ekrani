@@ -128,10 +128,7 @@ input[type=button] {width: auto; overflow: visible;}
 
 @font-face {
   font-family: 'Perfect';
-  src: url('http://ssukla.github.io/boot-aygiti-yok/fonts/Perfect.eot');
-  src: local('?'), url('http://ssukla.github.io/boot-aygiti-yok/fonts/Perfect.woff') format('woff'), url('http://ssukla.github.io/boot-aygiti-yok/fonts/Perfect.ttf') format('truetype'), url('https://ssukla.github.io/boot-aygiti-yok/fonts/Perfect.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  src: url('https://ssukla.github.io/font/PerfectDOSVGA437.woff');
 }
 
 html {cursor: url(cursor.png), auto;}
