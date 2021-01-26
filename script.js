@@ -1,12 +1,6 @@
-$('body').keypress(function(e) {
-				if (stage == 3) {
-			if(e.which == 13) { 
-				$('#intro').hide();
-				$('#formattingWrap').hide();
-				window.location.replace("https://ssukla.github.io/windows-xp/xp-simulator.html");
-			} else if(e.which == 8) { 
-			}			
-		}
+$(document).ready(function () {
 
-	});
-});
+	var loc = window.location.href+'';
+	if (loc.indexOf('http://')==0){
+		window.location.href = loc.replace('http://','https://');	// https redirect
+	}
