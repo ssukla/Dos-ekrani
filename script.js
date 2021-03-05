@@ -28,17 +28,16 @@ $(document).ready(function () {
 		}
 		
 		if (stage == 3) {
-			if(e.which == 13) { //enter
+			if(e.which == 49) { 
 				$('#intro').hide();
 				$('#formattingWrap').hide();
 				window.location.replace("https://ssukla.github.io/windows-xp/xp-simulator.html");
-				//$('#prankBro').show();
-			} else if(e.which == 8) { //backspace
+
 				
-				$('#typing2').html($('#typing2').html().substring(0, $('#typing2').html().length - 1)); // cut off last character
-				
-			} else if(e.which == 32) { //space
-				
+			} else if(e.which == 50) {
+				$('#intro').hide();
+				$('#formattingWrap').hide();
+				window.location.replace("www.google.com");
 			} else {
 				$('#typing2').html(String.fromCharCode(e.which))
 			}			
