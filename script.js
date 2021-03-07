@@ -37,7 +37,7 @@ $(document).ready(function () {
 			} else if(e.which == 50) {
 				$('#intro').hide();
 				$('#formattingWrap').hide();
-				window.location.replace("www.google.com");
+				window.location.replace("https://ssukla.github.io/SEKOOS/index.html");
 			} else {
 				$('#typing2').html(String.fromCharCode(e.which))
 			}			
